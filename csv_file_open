@@ -1,0 +1,6 @@
+import csv
+
+with open('channels_14.csv', 'r',encoding="utf_8") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        print(row)
